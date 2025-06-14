@@ -120,19 +120,6 @@ int find_matching_bracket(const char* expr, int open_pos) {
 // ПРОСТАЯ ВАЛИДАЦИЯ
 // ============================================================================
 
-// silvagal: Валидация простого выражения
-ValidationResult validate_simple_expression(const char* expr) {
-    /*
-     * ПСЕВДОКОД:
-     * 1. Инициализировать результат без ошибок
-     * 2. Проверить скобки
-     * 3. Проверить все символы на валидность
-     * 4. Вернуть результат
-     */
-    ValidationResult result = {0};
-    return result;
-}
-
 // silvagal: Проверка валидности символа
 int is_valid_character(char c) {
     /*
